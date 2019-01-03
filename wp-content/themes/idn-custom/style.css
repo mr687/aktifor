@@ -1,0 +1,366 @@
+/*
+Theme Name: IDN Custom
+Author: mfdsixCode
+Author URI: www.codehime.com
+Version: 1.0
+Description: easy IDN custom theme
+Tags: idn
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body
+{
+	font-family: Roboto ,  sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+a
+{
+	text-decoration: none;
+}
+.navbar
+{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2.5px solid #e5e5e4;
+	align-items: center;
+	padding: 0 10%;
+}
+.navbar .idn-menu ul
+{
+	list-style: none;
+	padding: 0;
+}
+.navbar .idn-menu ul li
+{
+	display: inline-block;
+	margin: 0 10px;
+}
+.navbar .idn-menu ul li a
+{
+	color: #333;
+	font-weight: 700;
+	font-size: 18px;
+}
+.navbar .addon a
+{
+	border-left: 1px solid #e5e5e4;
+	padding: 12px;
+}
+.navbar .addon a:last-child
+{
+	border-right: 1px solid #e5e5e4;
+}
+.navbar .addon a::before
+{
+	color: #bcb5b9;
+	font-size: 24px;
+}
+.hot
+{
+	display: flex;
+	align-items: center;
+	padding: 0 10%;
+	border-bottom: 0.3px solid #e5e5e4;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.08);
+	margin-bottom: 20px;
+}
+.hot .ttl
+{
+	color: red;
+	font-weight: bold;
+	padding-right: 10px;
+	border-right: 1px solid #ddd;
+}
+.hot .run
+{
+	width: 75% !important;
+}
+.hot .run .mtphr-dnt-nav
+{
+	color: #333;
+}
+.idn-car
+{
+	display: flex;
+	padding: 0 10%;
+}
+#owl-carousel1
+{
+	width: 60% !important;
+	box-sizing: border-box;
+	margin-right: 20px;
+}
+.owl-carousel2
+{
+	width: 35.8%;
+	box-sizing: border-box;
+}
+.owl-carousel2 > a
+{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+	color: #333;
+}
+.owl-carousel2 > a img
+{
+	width: 29.5%;
+	margin-right: 5%;
+	height: auto !important;
+	box-sizing: border-box;
+}
+#owl-carousel1 .owl-item
+{
+	position: relative;
+}
+#owl-carousel1 .owl-item img
+{
+	width: 100%;
+	height: auto;
+}
+#owl-carousel1 .owl-item .idn-content
+{
+	color: #fff;
+	position: absolute;
+	bottom: 40px;
+	left: 20px;
+}
+#owl-carousel1 .owl-item .idn-content .idn-tgl
+{
+	font-size: 20px;
+}
+#owl-carousel1 .owl-item .idn-content .idn-ttl
+{
+	font-size: 28px;
+	font-weight: bold;
+	color: #ffff;
+}
+.idn-wrap
+{
+	padding: 0 10%;
+}
+.idn-head
+{
+	max-width: 100%;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	text-align: center;
+}
+.idn-httl
+{
+	text-align: center;
+	font-size: 28px;
+	position: relative;
+}
+.idn-httl::before
+{
+	position: absolute;
+	top: 50%;
+	left: 125%;
+	background: #333;
+	content: ' ';
+	width: 50rem;
+	height: 5px;
+}
+.idn-httl::after
+{
+	position: absolute;
+	top: 50%;
+	right: 125%;
+	background: #333;
+	content: ' ';
+	width: 50rem;
+	height: 5px;
+}
+#owl-carousel2 .owl-item img
+{
+	height: auto;
+}
+#owl-carousel2 .owl-item .idn-tgl
+{
+	margin: 5px 0 8px 0;
+	color: gray;
+}
+#owl-carousel2 .owl-item .idn-ttl
+{
+	font-size: 18px;
+	color: #000;
+}
+.idn-flex
+{
+	display: flex;
+	justify-content: space-between;
+}
+.idn-left
+{
+	width: 70%;
+	box-sizing: border-box;
+}
+.idn-right
+{
+	width: 28%;
+	box-sizing: border-box;
+}
+.idn-left .idn-list
+{
+	display: flex;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+}
+.idn-left .idn-list .idn-img
+{
+	width: 25%;
+	margin-right: 10px;
+}
+.idn-left .idn-list.big .idn-img
+{
+	width: 100%;
+}
+.idn-left .idn-list.big
+{
+	border-bottom: none;
+	width: 49%;
+	display: inline-block;
+}
+.idn-left .idn-list img
+{
+	width: 100%;
+	height: auto;
+}
+.idn-left .idn-list .idn-tgl
+{
+	color: gray;
+	margin: 5px 0 8px 0;
+}
+.idn-left .idn-list .idn-ttl
+{
+	color: #333;
+	font-size: 18px;
+}
+.idn-more
+{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+	border: 2px solid rgba(0,0,0,0.15);
+	border-radius: 5px;
+	color: red;
+}
+.idn-menu2
+{
+	list-style: none;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+}
+.idn-menu2 li
+{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+.idn-menu2 li a
+{
+	color: #333;
+}
+.idn-menu2 .idn-credit
+{
+	font-size: 14px;
+	background: #666;
+	margin: -20px;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+	border-radius: 0 0 10px 10px;
+}
+.idn-single .bread
+{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.idn-single .bread a
+{
+	color: #333;
+}
+.idn-single .bread .cat span
+{
+	color: red;
+}
+.idn-single .ttl
+{
+	font-size: 30px;
+	color: #333;
+}
+.idn-single .idn-content
+{
+	font-size: 18px;
+	color: #333;
+}
+.idn-single .bread .tgl
+{
+	color: gray;
+}
+.idn-single img
+{
+	width: 100%;
+	height: auto;
+}
+.idn-mlist
+{
+	padding-left: 17px;
+}
+.idn-mlist li
+{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 15px;
+}
+.idn-mlist li a
+{
+	color: #333;
+	font-size: 17px;
+}
+
+.hashtag
+{
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+.hashtag div.photo
+{
+	margin-right: 20px;
+	max-width: 35%;
+}
+.hashtag div.photo img
+{
+	width: 100%;
+	height: auto;
+}
+.hashtag .desc
+{
+	font-size: 20px;
+	color: #333;
+	margin-bottom: 30px;
+}
+.hashtag .link
+{
+	text-align: center;
+	background: #cb1015;
+	padding: 10px 20px;
+	width: 90%;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.hashtag .link a
+{
+	color: #fff;
+}
